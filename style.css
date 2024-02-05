@@ -1,25 +1,14 @@
-
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    width: 100%;
-    height: 100%;
-    background-image: repeating-conic-gradient(
-    from 0deg,
-    orangered,
-    transparent 10deg,
-    orange 10deg,
-    orangered 20deg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-color: orange;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
     position: fixed;
     width: 100%;
-    height: 15vh;
+    height: 20vh;
     top: 0;
     background-color: #333;
     color: #fff;
@@ -92,6 +81,22 @@ header {
 }
 main{
     margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    /* margin: 0; */
+    /* padding: 0; */
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    background-image: repeating-conic-gradient(
+    from 0deg,
+    orangered,
+    transparent 10deg,
+    orange 10deg,
+    orangered 20deg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: orange;
   
 }
 section {
@@ -215,6 +220,7 @@ a:hover {
     text-decoration: underline;
 }
 footer{
+
     width: 100%;
     height: 15vh;
     top: 0;
@@ -222,5 +228,7 @@ footer{
     color: #fff;
     text-align: center;
     padding: 1em 0;
-    
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
